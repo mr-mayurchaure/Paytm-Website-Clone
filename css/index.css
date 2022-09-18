@@ -1,0 +1,611 @@
+/* Header */
+
+/* -----menu----- */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter,sans-serif;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.paytm_logo{
+    height: 60px;
+    width: 200px;
+    margin-left: 65px;
+    margin-top: 8px;
+    float: left;
+}
+
+.menu{
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+
+.menu li{
+    display: inline;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.btn_signin{
+    height: 35px;
+    width: 110px;
+    margin-left: 80px;
+    margin-top: 22px;
+    border-radius: 20px;
+    background: #00baf2;
+    color: white;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_signin span{
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.btn_signin img{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+/* -----section 2----- */
+
+.kyc_note{
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4 span{
+    font-size: 25px;
+}
+
+
+/* -----section 3 (Download Section)----- */
+
+.main_sec{
+    height: 600px;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+
+.sec1{
+    height: 100%;
+    width: 32.2%;
+    float: left;
+    padding-left: 50px;
+}
+
+.sec2{
+    height: 100%;
+    width: 64.09%;
+    float: left;
+}
+
+.logo2 img{
+    height: 80px;
+    width: 80px;
+}
+
+ .title1{  /* India's Most-loved Payments App */
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.paragraph1 span{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.sec2 img{
+    height: 500px;
+    width: 500px;
+    float: right;
+}
+
+.btn_download{
+    height: 40px;
+    width: 240px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_download span{
+    margin-top: 11px;
+    float: left;
+    margin-left: 20px;
+}
+
+.btn_download a{
+    color: white;
+    margin-top: 11px;
+    float: left;
+    margin-left: 10px;
+}
+
+.btn_download:hover {
+    background: #40a2cc;
+    color: white;
+    border: 2px solid black ;
+  }
+
+
+  /* -----section 4 (Recharge and pay bills on paytm Section)----- */
+
+
+.main_sec2{
+    height: 350px;
+    width: 100%;
+    background-color:#00baf2;
+    float: left;
+}
+
+.title_sec{
+    height: 120px;
+    width: 100%;
+}
+
+.title_sec span{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 50px;
+    margin-top: 55px;
+    float: left;
+}
+
+.item_sec{
+    height: 250px;
+    width: 93.4%;
+    padding-left: 3.8%;
+    padding-right: 2.8%;
+    padding-top: 10px;
+}
+
+.item{
+    width: 120px;
+    height: 160px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    float: left;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.ic_item img{
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.title_item{
+    padding-right: 20px;
+}
+
+.item:hover{
+    background-color: #40a2cc;
+}
+
+
+  /* -----section 5 (Book and Buy on Paytm. Section)----- */
+
+.item2{
+    width: 120px;
+    height: 130px;
+    margin-right: 32px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 16px 11px 16px 16px;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    float: left;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.main_sec3{
+    height: 350px;
+    width: 100%;
+    background-color:#0f4a8a;
+    float: left;
+    margin-bottom: 80px;
+}
+
+.item2:hover{
+    background-color: #312e70;
+}
+
+.title_item2{
+    padding-right: 34px;
+}
+
+
+  /* -----section 6 (Paytm Payment Instruments Section)----- */
+
+
+.paytm_payment_inst{
+    font-size: 48px;
+    margin-left: 100px;
+}
+
+.main_sec4{
+    height: 600px;
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+
+}
+
+.part1{
+    height: 100%;
+    width: 33%;
+    float: left;
+    padding-left: 210px;
+    padding-top: 70px;
+}
+
+.part2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.logo2 img{
+    height: 80px;
+    width: 80px;
+}
+
+ .title2{  /* The Fastest Way to Pay In-store & Online. */
+    font-size: 36px;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.paragraph2 span{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.part2 img{
+    height: 470px;
+    width: 550px;
+    float: left;
+    padding-left: 40px;
+}
+
+.btn_download{
+    height: 40px;
+    width: 240px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn_download span{
+    margin-top: 11px;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo2 h4{
+    margin-left: 80px;
+    margin-top: -51px;
+}
+
+
+  /* -----section 8 (Want it? No more waiting for it. Section)----- */
+
+
+.logo5 img{
+    height: 70px;
+}
+
+.ss4{
+    height: 470px;
+    width: 430px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.btn_learnmore{
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 40px;
+}
+
+.btn_learnmore a{
+    color: white;
+}
+
+.btn_learnmore:hover{
+    background-color: #00baf2;
+}
+
+
+  /* -----section 9 (Want it? No more waiting for it.. Section)----- */
+
+
+.logo6 img{
+    height: 80px;
+
+}
+
+.side1{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-left: 150px;
+}
+
+.img1 img{
+    height: 296px;
+    margin-top: 50px;
+}
+
+.title3{
+    font-size: 50px;
+    margin-top: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.paragraph3 span{
+        font-size: 20px;
+        line-height: 25px;
+}
+
+.side2{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-left: 60px;
+    margin-top: 59px;
+}
+
+.logo7 img{
+    height: 20px;
+}
+
+
+  /* -----section 10 (Financial Services by Paytm. Section)----- */
+
+
+
+
+.financial_service_by_paytm{
+    font-size: 48px;
+    margin-left: 100px;
+    float: left;
+    margin-top: 300px;
+}
+
+.main_sec5{
+    height: 600px;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.logo8 img{
+    height: 35px;
+}
+
+.phase{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.paragraph3 span{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+  /* -----section 11 (Build Long-term Wealth & Achieve your Goals. Section)----- */
+
+
+.ss6{
+    height: 420px;
+    width: 470px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.phase02{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.title4{
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.logo9 img{
+    height: 60px;
+    width: 170px;
+}
+
+
+  /* -----section 12 (Insurance made easy. Section)----- */
+
+
+
+.ss7{
+    height: 450px;
+    width: 480px;
+    float: left;
+    padding-left: 130px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+
+  /* -----section 13 (Get a Personal Loan in 2 Minutes. Section)----- */
+
+
+.ss8{
+    height: 420px;
+    width: 420px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+.logo11 img{
+    height: 55px;
+    width: 190px;
+}
+
+.phase01{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+
+  /* -----section 14 (Business Services by Paytm. Section)----- */
+
+
+
+.bussiness_services{
+    font-size: 48px;
+    margin-left: 100px;
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.ss9{
+    height: 450px;
+    width: 430px;
+    float: left;
+    padding-left: 110px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.ss10{
+    height: 400px;
+    width: 480px;
+    float: left;
+    padding-left: 70px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+
+
+/* ---------Footer--------- */
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: #e3e7e9;
+    float: left;
+}
+
+.title6{
+    width: 230px;
+    font-size: 20px;
+    color: #000;
+    float: left;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.platform{
+    height: auto;
+    width: 500px;
+    float: left;
+    padding-top: 8px;
+
+}
+
+.platform img{
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ic_social{
+    float: right;
+    padding-right: 80px;
+}
+
+.ic_social i{
+    font-size: 28px;
+    margin: 15px;
+}
+
+.light{
+    height: 12px;
+    width: 100%;
+    background-color: #00baf2;
+    float: left;
+}
+
+.dark{
+    height: 12px;
+    width: 100%;
+    background-color:#002970;
+    float: left;
+}
